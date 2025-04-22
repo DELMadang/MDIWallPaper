@@ -31,7 +31,7 @@ type
     procedure ClientProc(var Message: TMessage);
   protected
     procedure CreateWnd; override;
-    procedure Createparams(var Params: TCreateParams); override;
+    procedure CreateParams(var Params: TCreateParams); override;
     procedure DrawImage(const ADC: HDC); virtual;
   public
     constructor Create(AOwner: TComponent); override;
